@@ -50,6 +50,11 @@ export const CaixaEntrada = styled.div`
 
 export const TituloEntrada = styled.h1`
     font-size: 14vh;
+
+    @media screen and (max-width:620px){
+        font-size: 12vh;
+        line-height: 130%;
+    }
 `
 
 export const CaixaTexto = styled.div`

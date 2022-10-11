@@ -5,7 +5,6 @@ export default function Work() {
   return (
     <S.Container>
       <S.Links to='/'>david.<span>home</span></S.Links>
-      <S.Titulo>Front-End React</S.Titulo>
       <S.Caixa>
         <a className='pagina' href="">ODS Bangu</a>
         <S.Paragrafo>Info Page</S.Paragrafo>

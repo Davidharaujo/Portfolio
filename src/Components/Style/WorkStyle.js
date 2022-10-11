@@ -7,6 +7,7 @@ export const Container = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 10vh;
 `
 export const Links = styled(Link)`
     width: 30vh;
@@ -38,11 +39,6 @@ export const Links = styled(Link)`
         margin-right: 2vw;
         font-size: 4vh;
     }
-`
-
-export const Titulo = styled.h2`
-    font-size: 12vh;
-    margin: 8vh 10vh;
 `
 
 export const Caixa = styled.div`
