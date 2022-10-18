@@ -35,9 +35,10 @@ export const Links = styled(Link)`
     }
 
     @media screen and (max-width:620px){
-        margin-top: 5vh;
-        margin-right: 2vw;
-        font-size: 4vh;
+        margin-top: 0vh;
+        margin-right: 0vw;
+        font-size: 3vh;
+        text-align: end;
     }
 `
 
@@ -61,10 +62,24 @@ export const Caixa = styled.div`
     .pagina:hover{
         margin-left: 3vh;
     }
+
+    @media screen and (max-width:620px){
+        margin: 2vh 10vw;
+
+        .pagina{
+            font-size: 12vw;
+        }
+    }
 `
 
 export const Paragrafo = styled.p`
     color: #0077b6;
     font-size: 3vh;
     font-weight: 500;
+
+    @media screen and (max-width:620px){
+        font-size: 6vw;
+
+        
+    }
 `

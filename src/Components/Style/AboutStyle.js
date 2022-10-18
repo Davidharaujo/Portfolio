@@ -9,7 +9,7 @@ export const Container = styled.section`
     flex-direction: column;
 `
 export const Links = styled(Link)`
-    width: 30vh;
+    width: 30vw;
     height: 7vh;
     font-size: 3.5vh;
     font-weight: 800;
@@ -35,8 +35,9 @@ export const Links = styled(Link)`
 
     @media screen and (max-width:620px){
         margin-top: 5vh;
-        margin-right: 2vw;
-        font-size: 4vh;
+        margin-right: 0vw;
+        font-size: 3vh;
+        text-align: end;
     }
 `
 
@@ -52,7 +53,7 @@ export const TituloEntrada = styled.h1`
     font-size: 14vh;
 
     @media screen and (max-width:620px){
-        font-size: 12vh;
+        font-size: 12vw;
         line-height: 130%;
     }
 `
@@ -75,7 +76,7 @@ export const Apresentacao = styled.h3`
     margin-bottom: 2vh;
 
     @media screen and (max-width:620px){
-        font-size: 5vh;
+        font-size: 9vw;
     }
 `
 
@@ -83,13 +84,27 @@ export const Paragrafo = styled.p`
     font-size: 3vh;
     margin-bottom: 2vh;
 
-    &.foco{
-        padding: 1vh;
-        background-color: #0077b6;
+    @media screen and (max-width:620px){
+        font-size: 6vw;
     }
+`
+
+export const CaixaFig = styled.figure`
+    margin: 0 18vw;
 
     @media screen and (max-width:620px){
-        font-size: 4vh;
+        margin: 0 8vw;
+    }
+`
+
+export const Foco  = styled.figcaption`
+    font-size: 3vh;
+    padding: 1vh;
+    background-color: #0077b6;
+
+    @media screen and (max-width:620px){
+        font-size: 6vw;
+        background-color: transparent;
     }
 `
 

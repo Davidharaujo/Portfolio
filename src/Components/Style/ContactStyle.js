@@ -35,8 +35,9 @@ export const Links = styled(Link)`
 
     @media screen and (max-width:620px){
         margin-top: 5vh;
-        margin-right: 2vw;
-        font-size: 4vh;
+        margin-right: 0vw;
+        font-size: 3vh;
+        text-align: end;
     }
 `
 
@@ -50,6 +51,10 @@ export const CaixaEntrada = styled.div`
 
 export const TituloEntrada = styled.h1`
     font-size: 14vh;
+
+    @media screen and (max-width:620px){
+        font-size: 14vw;
+    }
 `
 
 export const CaixaTexto = styled.div`
@@ -73,6 +78,7 @@ export const CaixaTexto = styled.div`
 
     @media screen and (max-width:620px){
         margin: 0 10vw;
+        font-size: 7vw;
     }
 `
 export const Apresentacao = styled.h3`
@@ -82,6 +88,6 @@ export const Apresentacao = styled.h3`
     color: white;
 
     @media screen and (max-width:620px){
-        font-size: 5vh;
+        font-size: 8vw;
     }
 `
